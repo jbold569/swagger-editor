@@ -1,8 +1,7 @@
 // Adapted from https://github.com/mlaursen/react-dd-menu/blob/master/src/js/DropdownMenu.js
 
-/* eslint react/no-find-dom-node: 0 */
-
-import React, { PureComponent, PropTypes } from "react"
+import React, { PureComponent } from "react"
+import PropTypes from "prop-types"
 import ReactDOM from "react-dom"
 import CSSTransitionGroup from "react-transition-group/CSSTransitionGroup"
 import classnames from "classnames"
